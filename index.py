@@ -25,7 +25,7 @@ def index():
     homepage += "<a href=/account>帳號密碼</a><br>"
     homepage += "<a href=/addbooks>圖書精選</a><br>"
     homepage += "<br><a href=/movie>讀取開眼電影即將上映影片，寫入Firestore</a><br>"
-    homepage += "<br><a href=/search>讀取開眼電影即將上映影片</a><br>"
+    homepage += "<br><a href=/searchQ>讀取開眼電影即將上映影片</a><br>"
     return homepage
 
 
